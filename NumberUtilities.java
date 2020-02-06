@@ -52,7 +52,7 @@ public class NumberUtilities {
 
     public static String getExponentiations(int start, int stop, int exponent) {
         String str = "";
-        for(int i = start; i < stop; i++){
+        for(int i = start; i <= stop; i++){
           str = str + Math.round((Math.pow(i, exponent)));
       }
         return str;
